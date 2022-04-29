@@ -3,24 +3,26 @@ from words import words
 from hangman_visual import lives_visual_dict
 import string
 
-# randomly chooses something from the list
+
 def get_valid_word(words):
-    word = random.choice(words)
+    word = random.choice(words)  # randomly chooses something from the list
     while '-' in word or ' ' in word:
         word = random.choice(words)
 
     return word.upper()
 
-    def hangman():
-        word = get_valid_word(words)
-        word_letters = set(word)  # letters in the word
-        alphabet = set(string.ascii_uppercase)
-        used_letters = set()  # what the user has guessed
+
+def hangman():
+    word = get_valid_word(words)
+    word_letters = set(word)  # letters in the word
+    alphabet = set(string.ascii_uppercase)
+    used_letters = set()  # what the user has guessed
 
     lives = 7
 
     # getting user input
-    while len(word_letters) > 0 and lives > 0:  # letters used
+    while len(word_letters) > 0 and lives > 0:
+        # letters used
         # ' '.join(['a', 'b', 'cd']) --> 'a b cd'
         print(lives, 'Remaining and you have used these letters: ', ' '.join(used_letters))
 
@@ -45,7 +47,7 @@ def get_valid_word(words):
 
         else:
             print('\nThats Not Even A Letter.')
-            
+
     # gets here when len(word_letters) == 0 OR when lives == 0
     if lives == 0:
         print(lives_visual_dict[lives])
