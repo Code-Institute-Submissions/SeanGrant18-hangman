@@ -6,7 +6,6 @@ Hangman is a site that allows users to play a simple game of Hangman. The site w
 
 ## Features 
 
-
 ## Existing Features
 
 ### Lives
