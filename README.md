@@ -35,12 +35,11 @@ When the user guesses a wrong letter it then will display the start of the frame
 
 ## Testing
 
-I spent nearly a week trying to get the Heroku app working but was unable, [Tutorial video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/) and information below the video was followed but the app still would not work.
+Testing was a diffucult task but i was able to bring Hangman to life by the help of the Student Care team and [W3Schools](https://www.w3schools.com/python/default.asp). At first the app was not deploying to heroku, this was a tedious task but was overcome by some help.
 
 ## Deployment
 
-Deployment was very tricky and was not completed. The Heroku app was made, [Tutorial video](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/) and information below the video was followed but the app still would not work.
-
+This project was deployed to heroku by first creating an account with heroku, setting up the heroku app and making sure all the settings were correct.
 
 ## Credits 
 
